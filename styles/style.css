@@ -173,6 +173,16 @@ hr{
     .player{
         flex-direction: column;
     }
+    .courses {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-name{
+        text-align: center;
+    }
+    
 }
 
 /* tablet devices */
