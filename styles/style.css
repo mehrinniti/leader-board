@@ -211,6 +211,7 @@ hr{
     }
     .nav-container{
         display: flex;
+        width: 100%;
         
     }
     .logo-idea{
@@ -219,11 +220,12 @@ hr{
     .about{
         display: flex;
         margin-left: 20px;
-        flex-wrap: wrap;
+        column-gap: 10px;
+        /* flex-wrap: wrap; */
         /* flex-wrap:wrap-reverse; */
     }
     .about a{
-        order: 2;
+        /* order: 2; */
         display: flex;
         
     }
@@ -234,9 +236,10 @@ hr{
         flex-wrap: nowrap;
     }
     .profile{
-        order: 1;
+        /* order: 1; */
         display: flex;
-        margin-left: 160px;
+        /* margin-left: 160px; */
+        margin-bottom: 40px;
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
