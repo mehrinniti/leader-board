@@ -219,13 +219,16 @@ hr{
     .about{
         display: flex;
         margin-left: 50px;
-        flex-wrap:wrap-reverse;
+        flex-wrap: wrap;
+        /* flex-wrap:wrap-reverse; */
     }
     .about a{
+        order: 2;
         display: flex;
-        flex-wrap: wrap-reverse;
+        
     }
     .profile{
+        order: 1;
         display: flex;
         margin-left: 160px;
     }
