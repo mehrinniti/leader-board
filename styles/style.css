@@ -221,6 +221,10 @@ hr{
         margin-left: 50px;
         flex-wrap:wrap-reverse;
     }
+    .profile{
+        display: flex;
+        margin-left: 160px;
+    }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
     }
