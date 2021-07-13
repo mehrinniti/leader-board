@@ -209,6 +209,18 @@ hr{
     .container{
         width: 100%;
     }
+    .nav-container{
+        display: flex;
+        
+    }
+    .logo-idea{
+        margin-left: 20px;
+    }
+    .about{
+        display: flex;
+        margin-left: 50px;
+        flex-wrap:wrap-reverse;
+    }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
     }
