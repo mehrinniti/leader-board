@@ -221,6 +221,10 @@ hr{
         margin-left: 50px;
         flex-wrap:wrap-reverse;
     }
+    .about a{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
     .profile{
         display: flex;
         margin-left: 160px;
