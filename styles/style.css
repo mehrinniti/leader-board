@@ -7,6 +7,45 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0px;
+}
+header{
+    height: 94px;
+    background-color: #562EFF;
+    margin-bottom: 15px;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-idea{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding-top: 18px;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.idea{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.about{
+    display: flex;
+    column-gap: 36px;
+    align-items: center;
+    padding-top: 18px;
+}
+.about a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 main{
@@ -93,6 +132,9 @@ hr{
 /* -------------------
     Course style 
 ----------------------- */
+.course-container{
+    margin-bottom: 28px;
+}
 
 .courses{
     display: grid;
