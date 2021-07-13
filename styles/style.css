@@ -227,6 +227,11 @@ hr{
         display: flex;
         
     }
+    .about .home.aboutus.work{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     .profile{
         order: 1;
         display: flex;
