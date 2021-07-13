@@ -218,7 +218,7 @@ hr{
     }
     .about{
         display: flex;
-        margin-left: 50px;
+        margin-left: 20px;
         flex-wrap: wrap;
         /* flex-wrap:wrap-reverse; */
     }
